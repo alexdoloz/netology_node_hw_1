@@ -1,5 +1,5 @@
 const file = require('./file-promise');
-
+console.log(__dirname);
 file
   .read('./data.txt')
   .then(data => data.toUpperCase())
